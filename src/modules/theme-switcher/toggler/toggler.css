@@ -1,0 +1,84 @@
+.toggle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.toggle-button__label {
+    position: relative;
+    display: flex;
+    margin: 10px;
+    width: 56px;
+    height: 30px;
+    background-color: rgb(68, 67, 67);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.toggle-button__input {
+    appearance: none;
+}
+
+.toggle-button__slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100px;
+
+    box-shadow: inset 25px 25px 33px #a8a8a8,
+        inset -25px -25px 33px #ffffff;
+}
+
+.toggle-button__slider::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.3s ease;
+
+    box-shadow: -5px -5px 10px #ffffff15;
+}
+
+.toggle-button__icon-sun_dark {
+    color: rgb(121, 119, 119);
+    font-size: 24px;
+    transition: color 0.2s ease;
+}
+
+.toggle-button__icon-moon_dark {
+    color: rgb(255, 230, 92);
+    text-shadow: 0px 0px 10px rgb(255, 227, 71);
+    font-size: 24px;
+    transition: color 0.2s ease;
+}
+
+.toggle-button__icon-sun {
+    color: rgb(255, 230, 92);
+    font-size: 24px;
+    text-shadow: 0px 0px 10px rgb(255, 227, 71);
+    transition: color 0.2s ease;
+}
+
+.toggle-button__icon-moon {
+    color: rgb(121, 119, 119);
+    font-size: 24px;
+    transition: color 0.2s ease;
+}
+
+input:checked+.toggle-button__slider {
+    background-color: #bada55;
+    box-shadow: inset 25px 25px 33px #aac74b,
+        inset -25px -25px 33px #e9ff6a;
+}
+
+input:checked+.toggle-button__slider::before {
+    right: calc(100% - 5px);
+    transform: translateX(100%);
+}

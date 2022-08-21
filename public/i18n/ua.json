@@ -1,0 +1,11 @@
+{
+    "navigation": {
+        "home": "Головна",
+        "about": "Про нас",
+        "contacts": "Контакти",
+        "news": "Новини"
+    },
+    "content": {
+        "header": "Зміст"
+    }
+}

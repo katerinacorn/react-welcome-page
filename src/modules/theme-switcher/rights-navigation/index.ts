@@ -1,0 +1,1 @@
+export {RightsNavigation} from "./rights-navigation";

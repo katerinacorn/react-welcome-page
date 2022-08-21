@@ -1,0 +1,11 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "contacts": "Contacts",
+        "news": "News"
+    },
+    "content": {
+        "header": "Content"
+    }
+}

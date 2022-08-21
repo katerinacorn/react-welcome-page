@@ -1,0 +1,29 @@
+.headline__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.headline__accent-text {
+    color: #f86d3a;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+}
+
+.headline__subtitle {
+    font-size: 14px;
+    color: #736B6B;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.headline__subtitle-divider {
+    color: black;
+    font-weight: 700;
+    margin: 0 10px;
+}
+.headline__description{
+    line-height: 1.1;
+}

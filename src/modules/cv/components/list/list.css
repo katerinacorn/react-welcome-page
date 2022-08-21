@@ -1,0 +1,47 @@
+.list-items {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    /*  margin: 0; */
+}
+
+.list-items_numbered {
+    list-style-type: decimal;
+}
+
+.list-items_dotted {
+    list-style-type: disc;
+}
+
+.list-items_custom {
+    list-style-type: "\1F4CD";
+}
+
+.list-items_light {
+    color: white;
+}
+
+.list-items_accent {
+    color: #f86d3a;
+}
+
+.list-items__item-link {
+    color: #f86d3a;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 5px;
+
+}
+
+.list-items__item-text {
+    color: #aca2a2;
+    font-size: 14px;
+    word-wrap: break-word;
+    margin-left: 5px;
+}
+
+.list-items__item-text_light {
+    color: black;
+}
